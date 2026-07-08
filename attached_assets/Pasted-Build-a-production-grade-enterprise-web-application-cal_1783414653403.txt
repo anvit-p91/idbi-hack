@@ -1,0 +1,1003 @@
+Build a production-grade enterprise web application called **Prospect Assist AI** for the IDBI Bank Hackathon.
+
+## Objective
+
+Prospect Assist AI is an AI-powered Lead Intelligence, Customer Relationship Management (CRM), and Loan Origination Support Platform that helps Relationship Managers and Credit Managers identify, analyze and convert high-quality retail lending prospects.
+
+The system should feel like a real internal banking application used by IDBI Bank employees.
+
+This is NOT a public customer portal.
+
+The application should resemble enterprise banking software like Salesforce Financial Services Cloud, SAP Banking, Finacle CRM, Oracle Banking CRM, or Microsoft Dynamics.
+
+--------------------------------------------------
+
+IMPORTANT
+
+This is ONLY a frontend prototype.
+
+There should be
+
+- No Backend
+- No Python
+- No Express
+- No FastAPI
+- No Database
+- No Firebase
+- No Supabase
+- No Authentication Server
+
+Everything should work using
+
+/public/data/*.json
+
+and mocked API service functions.
+
+Every API call should have a random delay between 800–1800 ms to simulate real backend processing.
+
+Never mention dummy data anywhere in the application.
+
+--------------------------------------------------
+
+Tech Stack
+
+React
+TypeScript
+Vite
+TailwindCSS
+shadcn/ui
+Lucide Icons
+Framer Motion
+Recharts
+
+--------------------------------------------------
+
+Design Language
+
+Premium enterprise banking software.
+
+Use
+
+White background
+
+Blue primary color
+
+Grey cards
+
+Rounded corners
+
+Professional typography
+
+Minimal shadows
+
+Large data tables
+
+Professional charts
+
+Status chips
+
+Timeline
+
+Tabs
+
+Cards
+
+Smooth animations
+
+Loading skeletons
+
+Micro interactions
+
+Hover animations
+
+Everything should feel like a Fortune 500 banking application.
+
+--------------------------------------------------
+
+Application Layout
+
+Left Sidebar
+
+Dashboard
+
+Lead Management
+
+Customer 360
+
+AI Intelligence
+
+Income Intelligence
+
+Offer Recommendation
+
+Analytics
+
+Explainability
+
+Settings
+
+Top Navigation
+
+Search
+
+Notifications
+
+Current RM Profile
+
+Branch
+
+--------------------------------------------------
+
+MAIN MODULES
+
+====================================
+
+1. EXECUTIVE DASHBOARD
+
+Show KPI Cards
+
+Today's New Leads
+
+Assigned Leads
+
+High Intent Leads
+
+Converted Leads
+
+Estimated Conversion %
+
+Potential Loan Portfolio
+
+Average Estimated Income
+
+Credit Cards Issued
+
+Insurance Policies Sold
+
+Balance Transfer Leads
+
+Average Ticket Size
+
+Top Performing RM
+
+Top Performing Branch
+
+Charts
+
+Lead Funnel
+
+Branch Performance
+
+Loan Distribution
+
+Monthly Conversion Trend
+
+Customer Segmentation
+
+Campaign Performance
+
+Recent Activity Feed
+
+Quick Actions
+
+--------------------------------------------------
+
+2. LEAD MANAGEMENT
+
+Create a professional banking CRM table.
+
+Columns
+
+Lead ID
+
+Customer Name
+
+Lead Type
+
+Recommended Product
+
+Lead Score
+
+Estimated Income
+
+Conversion Probability
+
+Priority
+
+Status
+
+Assigned RM
+
+Assigned Credit Manager
+
+Branch
+
+Search
+
+Filters
+
+Loan Type
+
+State
+
+Branch
+
+Priority
+
+Status
+
+RM
+
+Credit Manager
+
+Clicking any lead opens Lead Details.
+
+--------------------------------------------------
+
+3. LEAD DETAILS PAGE
+
+This page should look like a real Loan Origination System.
+
+SECTION A
+
+Consumer Profile
+
+Show
+
+Photo
+
+Customer Name
+
+Customer ID
+
+CIF Number
+
+Relationship Since
+
+PAN
+
+Display masked
+
+Example
+
+ABCDP****Z
+
+Aadhaar
+
+Display masked
+
+XXXX XXXX 4589
+
+Mobile
+
+Masked
+
+Email
+
+Masked
+
+DOB
+
+Age
+
+Gender
+
+Occupation
+
+Employer
+
+Annual Income
+
+Marital Status
+
+Dependents
+
+City
+
+State
+
+Customer Type
+
+Existing Customer
+
+New Customer
+
+Premium Customer
+
+--------------------------------------------------
+
+SECTION B
+
+Banking Relationship
+
+Savings Account
+
+Current Account
+
+Salary Account
+
+Existing Loans
+
+Credit Cards
+
+FD
+
+Insurance
+
+Investments
+
+Account Status
+
+Active
+
+Dormant
+
+Closed
+
+--------------------------------------------------
+
+SECTION C
+
+Existing Products
+
+Cards for
+
+Home Loan
+
+Personal Loan
+
+Mortgage
+
+Auto Loan
+
+Credit Card
+
+Insurance
+
+Gold Loan
+
+Balance Transfer
+
+Pre-approved Loan
+
+Business Loan
+
+Education Loan
+
+Each card displays
+
+Status
+
+Amount
+
+Outstanding
+
+EMI
+
+Eligibility
+
+--------------------------------------------------
+
+SECTION D
+
+Lead Information
+
+Lead Type
+
+Lead Source
+
+Generated Date
+
+Lead Score
+
+Probability
+
+Assigned RM
+
+Assigned Credit Manager
+
+Current Status
+
+New
+
+Assigned
+
+Contacted
+
+Documents Pending
+
+Under Review
+
+Approved
+
+Rejected
+
+Converted
+
+Next Action
+
+Call
+
+Meeting
+
+Collect Documents
+
+--------------------------------------------------
+
+SECTION E
+
+AI Recommendation
+
+Estimated Monthly Income
+
+Income Stability
+
+Repayment Capacity
+
+Disposable Income
+
+Recommended Product
+
+Eligible Amount
+
+Interest Rate
+
+Confidence Score
+
+Reason Codes
+
+Conversation Starter
+
+Likely Questions
+
+Likely Objections
+
+Required Documents
+
+Cross Sell Opportunities
+
+--------------------------------------------------
+
+SECTION F
+
+Customer Timeline
+
+Display banking journey
+
+Salary Credited
+
+Furniture Purchase
+
+Builder Payment
+
+FD Created
+
+Property Registration
+
+Campaign Click
+
+RM Called
+
+Documents Uploaded
+
+Credit Assessment
+
+Offer Generated
+
+Loan Approved
+
+Loan Disbursed
+
+--------------------------------------------------
+
+4. CUSTOMER 360
+
+Tabs
+
+Overview
+
+Transactions
+
+Income
+
+Investments
+
+Loans
+
+Documents
+
+Timeline
+
+AI Insights
+
+Overview
+
+Financial Summary
+
+Asset Summary
+
+Liability Summary
+
+Savings Trend
+
+Investment Trend
+
+Insurance
+
+Existing Products
+
+Credit Utilization
+
+Loan Eligibility
+
+Cross Sell Opportunities
+
+Digital Engagement
+
+--------------------------------------------------
+
+5. AI INTELLIGENCE
+
+Looks like ChatGPT.
+
+When Generate AI Report is clicked
+
+Animate
+
+Connecting to AI Engine
+
+Reading Transaction History
+
+Analyzing Spending
+
+Estimating Income
+
+Detecting Intent
+
+Predicting Life Events
+
+Calculating Repayment Capacity
+
+Scoring Customer
+
+Generating Explainability
+
+Preparing RM Summary
+
+Complete
+
+Then display
+
+Estimated Income
+
+Confidence
+
+Repayment Capacity
+
+Loan Recommendation
+
+Lead Score
+
+Conversion Probability
+
+AI Summary
+
+Conversation Starter
+
+Likely Questions
+
+Required Documents
+
+Risk Factors
+
+Positive Signals
+
+Explainability
+
+--------------------------------------------------
+
+6. INCOME INTELLIGENCE
+
+Charts
+
+Income Trend
+
+Income Sources
+
+Monthly Credits
+
+Monthly Debits
+
+Disposable Income
+
+Repayment Capacity
+
+Seasonality
+
+Confidence Meter
+
+--------------------------------------------------
+
+7. OFFER RECOMMENDATION
+
+Show
+
+Primary Recommendation
+
+Alternative Products
+
+Loan Amount
+
+Interest Rate
+
+EMI
+
+Tenure
+
+Processing Fee
+
+Eligibility
+
+Reasoning
+
+AI Confidence
+
+--------------------------------------------------
+
+8. ANALYTICS
+
+Branch Performance
+
+Lead Funnel
+
+RM Leaderboard
+
+Loan Mix
+
+Customer Segments
+
+Campaign Performance
+
+Conversion Trend
+
+Business Growth
+
+Heatmaps
+
+--------------------------------------------------
+
+9. EXPLAINABILITY
+
+Feature Importance
+
+Reason Codes
+
+Positive Signals
+
+Risk Indicators
+
+AI Confidence
+
+Progress Bars
+
+Timeline
+
+--------------------------------------------------
+
+10. BANK TEAM
+
+Every lead should display
+
+Relationship Manager
+
+Photo
+
+Employee ID
+
+Branch
+
+Experience
+
+Mobile
+
+Email
+
+Success Rate
+
+Assigned Credit Manager
+
+Photo
+
+Employee ID
+
+Approval Authority
+
+Workload
+
+Approval SLA
+
+--------------------------------------------------
+
+11. DOCUMENT VAULT
+
+PAN
+
+Aadhaar
+
+Salary Slip
+
+ITR
+
+GST
+
+Property Documents
+
+Vehicle RC
+
+Passport
+
+Bank Statement
+
+Each document
+
+Verified
+
+Pending
+
+Rejected
+
+Uploaded Date
+
+Expiry Date
+
+--------------------------------------------------
+
+12. CUSTOMER RISK PROFILE
+
+Display
+
+Credit Score
+
+Income Stability
+
+Fraud Risk
+
+Repayment Behaviour
+
+Debt Ratio
+
+Delinquency Risk
+
+Overall Risk
+
+Use gauges and progress bars.
+
+--------------------------------------------------
+
+13. SETTINGS
+
+Theme
+
+Notifications
+
+AI Threshold
+
+RM Profile
+
+Application Preferences
+
+--------------------------------------------------
+
+SUPPORTED PRODUCTS
+
+Generate AI recommendations for
+
+Personal Loan
+
+Home Loan
+
+Auto Loan
+
+Mortgage Loan
+
+Gold Loan
+
+Business Loan
+
+Education Loan
+
+Loan Against Property
+
+Balance Transfer
+
+Top-up Loan
+
+Credit Card
+
+Insurance
+
+Pre-approved Loan
+
+Every customer should receive
+
+One primary recommendation
+
+Multiple secondary recommendations
+
+--------------------------------------------------
+
+DATA
+
+Generate realistic banking data for 15 customers.
+
+Each customer should have
+
+Personal Details
+
+Bank Relationship
+
+Products
+
+Transaction History
+
+Income
+
+Expenses
+
+Savings
+
+Investments
+
+Loans
+
+Insurance
+
+Timeline
+
+AI Summary
+
+Lead Score
+
+Conversion Probability
+
+Life Event
+
+Lead Type
+
+Conversation Starter
+
+Reason Codes
+
+Explainability
+
+Documents
+
+Assigned RM
+
+Assigned Credit Manager
+
+Generate
+
+dashboard.json
+
+customers.json
+
+analytics.json
+
+offers.json
+
+settings.json
+
+customer-1.json
+
+through
+
+customer-15.json
+
+--------------------------------------------------
+
+SIMULATE AI
+
+All AI must be frontend only.
+
+Every AI action should show loading animations, typing effects, progress indicators and success messages.
+
+Different customers should produce different AI reports based on their JSON data.
+
+--------------------------------------------------
+
+POLISH
+
+Include
+
+Loading Skeletons
+
+Animated KPI Counters
+
+Smooth Page Transitions
+
+Toast Notifications
+
+Hover Effects
+
+Sticky Tables
+
+Pagination
+
+Sorting
+
+Global Search
+
+Command Palette
+
+Dark Mode
+
+Download Customer Report
+
+Export PDF
+
+Export CSV
+
+Responsive Layout
+
+--------------------------------------------------
+
+BONUS
+
+Create a "Start Live Demo" button.
+
+Automatically guide judges through
+
+Dashboard
+
+↓
+
+Lead Management
+
+↓
+
+Lead Details
+
+↓
+
+Customer 360
+
+↓
+
+AI Intelligence
+
+↓
+
+Offer Recommendation
+
+↓
+
+Analytics
+
+↓
+
+Business Impact
+
+End with
+
+Estimated Conversion Increase
+
+34%
+
+Lead Quality Improvement
+
+42%
+
+RM Productivity
+
+28%
+
+Customer Acquisition Cost Reduction
+
+19%
+
+Potential Annual Loan Portfolio
+
+₹185 Crore
+
+The application should be visually stunning, polished, interactive, enterprise-grade, and indistinguishable from a real banking CRM and Loan Origination System while running entirely on simulated local data.

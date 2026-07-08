@@ -1,0 +1,28 @@
+{
+  "theme": "light",
+  "notifications": {
+    "email": true,
+    "sms": true,
+    "push": true,
+    "leadAlert": true,
+    "approvalAlert": true
+  },
+  "aiThresholds": {
+    "minLeadScore": 60,
+    "minConversionProb": 50,
+    "confidenceLevel": 75
+  },
+  "currentRm": {
+    "name": "Anjali Singh",
+    "employeeId": "EMP-4521",
+    "branch": "Bandra West",
+    "role": "Relationship Manager",
+    "experience": "8 Years"
+  },
+  "appPreferences": {
+    "defaultView": "dashboard",
+    "rowsPerPage": 10,
+    "currency": "INR",
+    "dateFormat": "DD/MM/YYYY"
+  }
+}

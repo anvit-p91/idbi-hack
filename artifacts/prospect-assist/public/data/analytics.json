@@ -1,0 +1,37 @@
+{
+  "rmLeaderboard": [
+    {"rank": 1, "name": "Anjali Singh", "branch": "Bandra West", "leads": 32, "converted": 12, "successRate": 37.5, "portfolio": 124000000},
+    {"rank": 2, "name": "Vikram Nair", "branch": "Andheri East", "leads": 28, "converted": 9, "successRate": 32.1, "portfolio": 98000000},
+    {"rank": 3, "name": "Meena Iyer", "branch": "Powai", "leads": 25, "converted": 8, "successRate": 32.0, "portfolio": 87000000},
+    {"rank": 4, "name": "Rahul Desai", "branch": "Thane", "leads": 22, "converted": 5, "successRate": 22.7, "portfolio": 65000000}
+  ],
+  "campaignPerformance": [
+    {"campaign": "Home Loan Diwali Offer", "leads": 145, "converted": 28, "roi": 340},
+    {"campaign": "Pre-Approved PL Drive", "leads": 230, "converted": 45, "roi": 280},
+    {"campaign": "Auto Loan Festive", "leads": 89, "converted": 14, "roi": 210},
+    {"campaign": "Balance Transfer Q2", "leads": 67, "converted": 11, "roi": 175}
+  ],
+  "customerSegments": [
+    {"segment": "Salaried Premium", "count": 234, "avgTicket": 2500000},
+    {"segment": "Self Employed", "count": 178, "avgTicket": 1800000},
+    {"segment": "Business Owner", "count": 123, "avgTicket": 3200000},
+    {"segment": "Retired", "count": 89, "avgTicket": 800000},
+    {"segment": "NRI", "count": 45, "avgTicket": 4500000}
+  ],
+  "businessGrowth": [
+    {"quarter": "Q1 FY23", "portfolio": 285000000, "disbursements": 48},
+    {"quarter": "Q2 FY23", "portfolio": 312000000, "disbursements": 54},
+    {"quarter": "Q3 FY23", "portfolio": 345000000, "disbursements": 61},
+    {"quarter": "Q4 FY23", "portfolio": 378000000, "disbursements": 67},
+    {"quarter": "Q1 FY24", "portfolio": 415000000, "disbursements": 72},
+    {"quarter": "Q2 FY24", "portfolio": 485000000, "disbursements": 84}
+  ],
+  "loanMix": [
+    {"type": "Home Loan", "value": 35, "amount": 169750000},
+    {"type": "Personal Loan", "value": 25, "amount": 121250000},
+    {"type": "Auto Loan", "value": 15, "amount": 72750000},
+    {"type": "Business Loan", "value": 12, "amount": 58200000},
+    {"type": "Education Loan", "value": 8, "amount": 38800000},
+    {"type": "Others", "value": 5, "amount": 24250000}
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "LEAD002", "numId": 2, "customerId": "CIF45678",
+  "personalDetails": {
+    "name": "Priya Mehta", "customerId": "CIF45678", "cifNumber": "CIF45678",
+    "relationshipSince": "2020-07-22", "pan": "BCDEP****Z", "aadhaar": "XXXX XXXX 7812",
+    "mobile": "8765-4XX-XXX", "email": "p***a@yahoo.com", "dob": "1989-03-18", "age": 35,
+    "gender": "Female", "occupation": "Doctor", "employer": "Ruby Hall Clinic",
+    "annualIncome": 1800000, "maritalStatus": "Married", "dependents": 1,
+    "city": "Pune", "state": "Maharashtra", "customerType": "Premium Customer"
+  },
+  "bankingRelationship": {
+    "savingsAccount": {"number": "XXXX4321", "balance": 420000, "status": "Active"},
+    "salaryAccount": {"number": "XXXX8765", "balance": 180000, "status": "Active"},
+    "currentAccount": null,
+    "existingLoans": [],
+    "creditCards": [{"name": "IDBI Platinum", "limit": 300000, "outstanding": 82000}],
+    "fd": [{"amount": 500000, "maturityDate": "2025-12-18", "rate": 7.0}],
+    "insurance": [{"type": "Health Insurance", "premium": 36000, "sumAssured": 10000000}],
+    "investments": [{"type": "Equity MF", "amount": 25000, "frequency": "Monthly"}]
+  },
+  "existingProducts": [
+    {"product": "Credit Card", "status": "Active", "amount": 300000, "outstanding": 82000, "emi": null, "eligibility": null},
+    {"product": "Personal Loan", "status": "Pre-Approved", "amount": null, "outstanding": null, "emi": null, "eligibility": 2000000}
+  ],
+  "leadInfo": {
+    "leadType": "Personal Loan", "leadSource": "Branch Visit", "generatedDate": "2024-05-20",
+    "leadScore": 92, "probability": 85, "assignedRm": "Vikram Nair",
+    "assignedCm": "Sunita Bhatt", "status": "Contacted", "nextAction": "Meeting", "priority": "High"
+  },
+  "aiRecommendation": {
+    "estimatedMonthlyIncome": 150000, "incomeStability": "Very High", "repaymentCapacity": 70000,
+    "disposableIncome": 58000, "recommendedProduct": "Personal Loan",
+    "eligibleAmount": 2000000, "interestRate": 10.50, "confidenceScore": 92,
+    "reasonCodes": ["High and stable salary from reputed hospital", "Zero existing loan burden", "Excellent credit card repayment history", "High FD balance indicates strong savings discipline"],
+    "conversationStarter": "Dr. Mehta, as a premium IDBI customer, you qualify for our exclusive Personal Loan at 10.50% — no collateral required, with instant disbursal. Your impeccable financial record makes you eligible for our highest loan quantum.",
+    "likelyQuestions": ["What is the disbursal timeline?", "Is there a prepayment penalty?", "Can I top up later?"],
+    "likelyObjections": ["Rate seems higher than home loan", "Will this impact my credit score?", "Need to check tax implications"],
+    "requiredDocuments": ["PAN Card", "Aadhaar Card", "Last 3 months salary slips", "6 months bank statements", "Employment letter"],
+    "crossSellOpportunities": ["Term Insurance (underinsured currently)", "NRI Account (spouse works abroad)", "Wealth Management services"]
+  },
+  "incomeIntelligence": {
+    "monthlyCredits": [140000, 145000, 148000, 152000, 155000, 150000],
+    "monthlyDebits": [75000, 80000, 72000, 85000, 78000, 82000],
+    "incomeSources": [{"source": "Salary", "amount": 145000, "pct": 97}, {"source": "Interest Income", "amount": 5000, "pct": 3}],
+    "seasonality": "Stable", "confidenceScore": 95
+  },
+  "timeline": [
+    {"date": "2024-02-10", "event": "Salary Credited", "amount": 148000, "type": "credit"},
+    {"date": "2024-03-15", "event": "Branch Visit — Personal Loan Enquiry", "amount": null, "type": "intent"},
+    {"date": "2024-04-01", "event": "FD Opened", "amount": 500000, "type": "banking"},
+    {"date": "2024-05-20", "event": "Lead Created", "amount": null, "type": "lead"},
+    {"date": "2024-05-25", "event": "RM Called — Appointment Scheduled", "amount": null, "type": "rm"},
+    {"date": "2024-06-01", "event": "Meeting with RM", "amount": null, "type": "rm"},
+    {"date": "2024-06-05", "event": "Documents Submitted", "amount": null, "type": "document"}
+  ],
+  "riskProfile": {
+    "creditScore": 798, "incomeStability": 96, "fraudRisk": 2, "repaymentBehaviour": 98,
+    "debtRatio": 12, "delinquencyRisk": 1, "overallRisk": "Very Low"
+  },
+  "documents": [
+    {"type": "PAN Card", "status": "Verified", "uploadedDate": "2024-06-05", "expiryDate": null},
+    {"type": "Aadhaar Card", "status": "Verified", "uploadedDate": "2024-06-05", "expiryDate": null},
+    {"type": "Salary Slip (Jun)", "status": "Verified", "uploadedDate": "2024-06-06", "expiryDate": null},
+    {"type": "Bank Statement (6M)", "status": "Verified", "uploadedDate": "2024-06-06", "expiryDate": null},
+    {"type": "Employment Letter", "status": "Pending", "uploadedDate": null, "expiryDate": null}
+  ],
+  "assignedRm": {
+    "name": "Vikram Nair", "employeeId": "EMP-5632", "branch": "Andheri East",
+    "experience": "6 Years", "mobile": "9988-7XX-XXX", "email": "vikram.n@idbi.co.in", "successRate": 32.1
+  },
+  "assignedCm": {
+    "name": "Sunita Bhatt", "employeeId": "EMP-2987", "approvalAuthority": "75 Lakhs",
+    "workload": "9 cases", "approvalSla": "36 hours"
+  }
+}

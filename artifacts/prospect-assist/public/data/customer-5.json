@@ -1,0 +1,76 @@
+{
+  "id": "LEAD005", "numId": 5, "customerId": "CIF34567",
+  "personalDetails": {
+    "name": "Arjun Krishnan", "customerId": "CIF34567", "cifNumber": "CIF34567",
+    "relationshipSince": "2019-08-12", "pan": "EFGHP****Z", "aadhaar": "XXXX XXXX 5921",
+    "mobile": "5432-1XX-XXX", "email": "a***n@deloitte.com", "dob": "1986-04-22", "age": 38,
+    "gender": "Male", "occupation": "Chartered Accountant", "employer": "Deloitte India",
+    "annualIncome": 1440000, "maritalStatus": "Married", "dependents": 2,
+    "city": "Chennai", "state": "Tamil Nadu", "customerType": "Existing Customer"
+  },
+  "bankingRelationship": {
+    "savingsAccount": {"number": "XXXX6789", "balance": 380000, "status": "Active"},
+    "salaryAccount": {"number": "XXXX1357", "balance": 120000, "status": "Active"},
+    "currentAccount": null,
+    "existingLoans": [{"type": "Personal Loan", "amount": 500000, "outstanding": 120000, "emi": 12000}],
+    "creditCards": [{"name": "IDBI Signature", "limit": 250000, "outstanding": 55000}],
+    "fd": [{"amount": 400000, "maturityDate": "2025-09-15", "rate": 6.75}],
+    "insurance": [{"type": "Term Plan", "premium": 18000, "sumAssured": 10000000}],
+    "investments": [{"type": "Index Fund SIP", "amount": 20000, "frequency": "Monthly"}]
+  },
+  "existingProducts": [
+    {"product": "Personal Loan", "status": "Active", "amount": 500000, "outstanding": 120000, "emi": 12000, "eligibility": null},
+    {"product": "Credit Card", "status": "Active", "amount": 250000, "outstanding": 55000, "emi": null, "eligibility": null},
+    {"product": "Home Loan", "status": "Pre-Approved", "amount": null, "outstanding": null, "emi": null, "eligibility": 6000000}
+  ],
+  "leadInfo": {
+    "leadType": "Home Loan", "leadSource": "Salary Account Analysis", "generatedDate": "2024-05-18",
+    "leadScore": 89, "probability": 80, "assignedRm": "Anjali Singh",
+    "assignedCm": "Pradeep Kale", "status": "Under Review", "nextAction": "Collect Documents", "priority": "High"
+  },
+  "aiRecommendation": {
+    "estimatedMonthlyIncome": 120000, "incomeStability": "Very High", "repaymentCapacity": 54000,
+    "disposableIncome": 44000, "recommendedProduct": "Home Loan",
+    "eligibleAmount": 6000000, "interestRate": 8.45, "confidenceScore": 89,
+    "reasonCodes": ["Top-tier CA firm employment", "High and consistent savings over 5 years", "Existing loan being repaid perfectly", "High FD indicating real estate readiness"],
+    "conversationStarter": "Mr. Krishnan, as a CA yourself, you understand the value of leveraging home loan tax benefits under 80C and 24(b). Your profile qualifies you for our best Home Loan rate of 8.45% — that is a saving of 0.25% vs standard rates.",
+    "likelyQuestions": ["Can I get Section 24 deduction benefit?", "What about joint loan with spouse?", "Flexi EMI options available?"],
+    "likelyObjections": ["Want to wait for property prices to correct", "Will tenure impact retirement planning?", "Other bank giving 8.35%"],
+    "requiredDocuments": ["PAN Card", "Aadhaar Card", "Form 16 (2 years)", "Salary slips (3 months)", "Bank statements (12 months)", "Property documents"],
+    "crossSellOpportunities": ["Home Insurance", "Life Cover top-up", "Wealth Management"]
+  },
+  "incomeIntelligence": {
+    "monthlyCredits": [112000, 115000, 118000, 120000, 122000, 120000],
+    "monthlyDebits": [68000, 72000, 70000, 75000, 71000, 74000],
+    "incomeSources": [{"source": "Salary", "amount": 118000, "pct": 98}, {"source": "Consulting", "amount": 2000, "pct": 2}],
+    "seasonality": "Stable", "confidenceScore": 92
+  },
+  "timeline": [
+    {"date": "2024-01-10", "event": "Salary Credited", "amount": 118000, "type": "credit"},
+    {"date": "2024-03-22", "event": "Property Registration Query", "amount": null, "type": "intent"},
+    {"date": "2024-04-08", "event": "Home Loan Eligibility Calculator Used", "amount": null, "type": "campaign"},
+    {"date": "2024-05-18", "event": "Lead Created", "amount": null, "type": "lead"},
+    {"date": "2024-05-25", "event": "RM Called", "amount": null, "type": "rm"},
+    {"date": "2024-06-05", "event": "Documents Submitted", "amount": null, "type": "document"},
+    {"date": "2024-06-15", "event": "Credit Assessment In Progress", "amount": null, "type": "credit"}
+  ],
+  "riskProfile": {
+    "creditScore": 781, "incomeStability": 92, "fraudRisk": 3, "repaymentBehaviour": 95,
+    "debtRatio": 15, "delinquencyRisk": 2, "overallRisk": "Very Low"
+  },
+  "documents": [
+    {"type": "PAN Card", "status": "Verified", "uploadedDate": "2024-06-05", "expiryDate": null},
+    {"type": "Aadhaar Card", "status": "Verified", "uploadedDate": "2024-06-05", "expiryDate": null},
+    {"type": "Form 16 (FY23)", "status": "Verified", "uploadedDate": "2024-06-06", "expiryDate": null},
+    {"type": "Bank Statement (12M)", "status": "Verified", "uploadedDate": "2024-06-06", "expiryDate": null},
+    {"type": "Property Documents", "status": "Pending", "uploadedDate": null, "expiryDate": null}
+  ],
+  "assignedRm": {
+    "name": "Anjali Singh", "employeeId": "EMP-4521", "branch": "Navi Mumbai",
+    "experience": "8 Years", "mobile": "9876-5XX-XXX", "email": "anjali.s@idbi.co.in", "successRate": 37.5
+  },
+  "assignedCm": {
+    "name": "Pradeep Kale", "employeeId": "EMP-3214", "approvalAuthority": "1 Crore",
+    "workload": "12 cases", "approvalSla": "48 hours"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "kpis": {
+    "todayNewLeads": 12,
+    "assignedLeads": 87,
+    "highIntentLeads": 23,
+    "convertedLeads": 34,
+    "conversionRate": 18.4,
+    "potentialPortfolio": 485000000,
+    "avgEstimatedIncome": 72000,
+    "creditCardsIssued": 156,
+    "insurancePoliciesSold": 89,
+    "balanceTransferLeads": 31,
+    "avgTicketSize": 1850000,
+    "topRm": "Anjali Singh",
+    "topBranch": "Bandra West"
+  },
+  "leadFunnel": [
+    {"stage": "New Leads", "count": 245},
+    {"stage": "Contacted", "count": 189},
+    {"stage": "Under Review", "count": 134},
+    {"stage": "Approved", "count": 78},
+    {"stage": "Converted", "count": 34}
+  ],
+  "branchPerformance": [
+    {"branch": "Bandra West", "leads": 67, "converted": 18, "portfolio": 124000000},
+    {"branch": "Andheri East", "leads": 54, "converted": 12, "portfolio": 98000000},
+    {"branch": "Powai", "leads": 48, "converted": 10, "portfolio": 87000000},
+    {"branch": "Thane", "leads": 42, "converted": 9, "portfolio": 76000000},
+    {"branch": "Navi Mumbai", "leads": 34, "converted": 7, "portfolio": 62000000}
+  ],
+  "monthlyTrend": [
+    {"month": "Jan", "leads": 180, "converted": 28},
+    {"month": "Feb", "leads": 210, "converted": 31},
+    {"month": "Mar", "leads": 195, "converted": 29},
+    {"month": "Apr", "leads": 230, "converted": 38},
+    {"month": "May", "leads": 215, "converted": 34},
+    {"month": "Jun", "leads": 245, "converted": 42}
+  ],
+  "loanDistribution": [
+    {"type": "Home Loan", "value": 35},
+    {"type": "Personal Loan", "value": 25},
+    {"type": "Auto Loan", "value": 15},
+    {"type": "Business Loan", "value": 12},
+    {"type": "Education Loan", "value": 8},
+    {"type": "Others", "value": 5}
+  ],
+  "recentActivity": [
+    {"id": 1, "action": "Lead Assigned", "customer": "Rajesh Sharma", "rm": "Anjali Singh", "time": "2 min ago", "type": "lead"},
+    {"id": 2, "action": "Document Uploaded", "customer": "Priya Mehta", "rm": "Vikram Nair", "time": "8 min ago", "type": "document"},
+    {"id": 3, "action": "Loan Approved", "customer": "Suresh Patel", "rm": "Meena Iyer", "time": "15 min ago", "type": "approval"},
+    {"id": 4, "action": "AI Report Generated", "customer": "Kavitha Rao", "rm": "Rahul Desai", "time": "22 min ago", "type": "ai"},
+    {"id": 5, "action": "Offer Accepted", "customer": "Arjun Krishnan", "rm": "Anjali Singh", "time": "35 min ago", "type": "offer"},
+    {"id": 6, "action": "New Lead Created", "customer": "Sunita Gupta", "rm": "Vikram Nair", "time": "1 hr ago", "type": "lead"},
+    {"id": 7, "action": "Documents Pending", "customer": "Mohammed Ali", "rm": "Meena Iyer", "time": "1.5 hr ago", "type": "document"},
+    {"id": 8, "action": "Credit Assessment Done", "customer": "Deepa Nambiar", "rm": "Rahul Desai", "time": "2 hr ago", "type": "approval"}
+  ]
+}

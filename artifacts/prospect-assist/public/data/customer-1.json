@@ -1,0 +1,81 @@
+{
+  "id": "LEAD001", "numId": 1, "customerId": "CIF78234",
+  "personalDetails": {
+    "name": "Rajesh Sharma", "customerId": "CIF78234", "cifNumber": "CIF78234",
+    "relationshipSince": "2018-03-15", "pan": "ABCDP****Z", "aadhaar": "XXXX XXXX 4589",
+    "mobile": "9876-5XX-XXX", "email": "r***h@gmail.com", "dob": "1982-06-12", "age": 42,
+    "gender": "Male", "occupation": "Software Engineer", "employer": "TCS Ltd",
+    "annualIncome": 1200000, "maritalStatus": "Married", "dependents": 2,
+    "city": "Mumbai", "state": "Maharashtra", "customerType": "Existing Customer"
+  },
+  "bankingRelationship": {
+    "savingsAccount": {"number": "XXXX1234", "balance": 245000, "status": "Active"},
+    "salaryAccount": {"number": "XXXX5678", "balance": 85000, "status": "Active"},
+    "currentAccount": null,
+    "existingLoans": [{"type": "Car Loan", "amount": 450000, "outstanding": 180000, "emi": 8500}],
+    "creditCards": [{"name": "IDBI Royale", "limit": 150000, "outstanding": 45000}],
+    "fd": [{"amount": 200000, "maturityDate": "2025-06-12", "rate": 6.5}],
+    "insurance": [{"type": "Life Insurance", "premium": 24000, "sumAssured": 5000000}],
+    "investments": [{"type": "Mutual Fund SIP", "amount": 10000, "frequency": "Monthly"}]
+  },
+  "existingProducts": [
+    {"product": "Car Loan", "status": "Active", "amount": 450000, "outstanding": 180000, "emi": 8500, "eligibility": null},
+    {"product": "Credit Card", "status": "Active", "amount": 150000, "outstanding": 45000, "emi": null, "eligibility": null},
+    {"product": "Home Loan", "status": "Pre-Approved", "amount": null, "outstanding": null, "emi": null, "eligibility": 5000000}
+  ],
+  "leadInfo": {
+    "leadType": "Home Loan", "leadSource": "Campaign Click", "generatedDate": "2024-06-01",
+    "leadScore": 87, "probability": 78, "assignedRm": "Anjali Singh",
+    "assignedCm": "Pradeep Kale", "status": "Under Review", "nextAction": "Collect Documents", "priority": "High"
+  },
+  "aiRecommendation": {
+    "estimatedMonthlyIncome": 100000, "incomeStability": "High", "repaymentCapacity": 45000,
+    "disposableIncome": 38000, "recommendedProduct": "Home Loan",
+    "eligibleAmount": 4500000, "interestRate": 8.65, "confidenceScore": 87,
+    "reasonCodes": ["Consistent salary credits for 24 months", "Low existing EMI-to-income ratio (8.5%)", "Long IDBI relationship (6 years)", "High savings rate — avg ₹28K/month"],
+    "conversationStarter": "Mr. Sharma, I noticed you have been a valued IDBI customer for over 6 years. Based on your salary account activity, you are financially well-positioned for a home purchase. We have a pre-approved Home Loan offer at 8.65% — one of our lowest rates — that we can activate for you today.",
+    "likelyQuestions": ["What is the processing fee?", "Can I claim tax benefits under Section 80C?", "How long does final approval take?"],
+    "likelyObjections": ["EMI might stretch my monthly budget", "Need to discuss with family before deciding", "Want to compare rates with other banks"],
+    "requiredDocuments": ["PAN Card", "Aadhaar Card", "Last 3 months salary slips", "6 months bank statements", "Form 16", "Property documents / builder agreement"],
+    "crossSellOpportunities": ["Home Insurance (mandatory)", "Top-up Loan (available after 12 EMIs)", "Balance Transfer — existing car loan at lower rate"]
+  },
+  "incomeIntelligence": {
+    "monthlyCredits": [85000, 88000, 92000, 87000, 95000, 100000],
+    "monthlyDebits": [52000, 55000, 58000, 54000, 60000, 62000],
+    "incomeSources": [{"source": "Salary", "amount": 95000, "pct": 95}, {"source": "Rental Income", "amount": 5000, "pct": 5}],
+    "seasonality": "Stable", "confidenceScore": 91
+  },
+  "timeline": [
+    {"date": "2024-01-15", "event": "Salary Credited", "amount": 88000, "type": "credit"},
+    {"date": "2024-02-20", "event": "Property Enquiry on Builder Website", "amount": null, "type": "intent"},
+    {"date": "2024-03-10", "event": "FD Renewed", "amount": 200000, "type": "banking"},
+    {"date": "2024-04-05", "event": "Campaign Click — Home Loan Offer", "amount": null, "type": "campaign"},
+    {"date": "2024-04-08", "event": "Lead Created", "amount": null, "type": "lead"},
+    {"date": "2024-05-01", "event": "RM Called", "amount": null, "type": "rm"},
+    {"date": "2024-05-15", "event": "Documents Uploaded", "amount": null, "type": "document"},
+    {"date": "2024-06-01", "event": "Credit Assessment Initiated", "amount": null, "type": "credit"},
+    {"date": "2024-06-10", "event": "Offer Generated: 4500000 @ 8.65%", "amount": 4500000, "type": "offer"}
+  ],
+  "riskProfile": {
+    "creditScore": 762, "incomeStability": 88, "fraudRisk": 5, "repaymentBehaviour": 92,
+    "debtRatio": 22, "delinquencyRisk": 4, "overallRisk": "Low"
+  },
+  "documents": [
+    {"type": "PAN Card", "status": "Verified", "uploadedDate": "2024-05-15", "expiryDate": null},
+    {"type": "Aadhaar Card", "status": "Verified", "uploadedDate": "2024-05-15", "expiryDate": null},
+    {"type": "Salary Slip (May)", "status": "Verified", "uploadedDate": "2024-05-16", "expiryDate": null},
+    {"type": "Salary Slip (Apr)", "status": "Verified", "uploadedDate": "2024-05-16", "expiryDate": null},
+    {"type": "Salary Slip (Mar)", "status": "Verified", "uploadedDate": "2024-05-16", "expiryDate": null},
+    {"type": "Bank Statement (6M)", "status": "Verified", "uploadedDate": "2024-05-18", "expiryDate": null},
+    {"type": "Form 16", "status": "Pending", "uploadedDate": null, "expiryDate": null},
+    {"type": "Property Documents", "status": "Pending", "uploadedDate": null, "expiryDate": null}
+  ],
+  "assignedRm": {
+    "name": "Anjali Singh", "employeeId": "EMP-4521", "branch": "Bandra West",
+    "experience": "8 Years", "mobile": "9876-5XX-XXX", "email": "anjali.s@idbi.co.in", "successRate": 37.5
+  },
+  "assignedCm": {
+    "name": "Pradeep Kale", "employeeId": "EMP-3214", "approvalAuthority": "1 Crore",
+    "workload": "12 cases", "approvalSla": "48 hours"
+  }
+}

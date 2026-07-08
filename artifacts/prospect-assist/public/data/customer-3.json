@@ -1,0 +1,77 @@
+{
+  "id": "LEAD003", "numId": 3, "customerId": "CIF23456",
+  "personalDetails": {
+    "name": "Suresh Patel", "customerId": "CIF23456", "cifNumber": "CIF23456",
+    "relationshipSince": "2015-11-08", "pan": "CDEFP****Z", "aadhaar": "XXXX XXXX 2341",
+    "mobile": "7654-3XX-XXX", "email": "s***h@business.com", "dob": "1976-09-25", "age": 48,
+    "gender": "Male", "occupation": "Business Owner", "employer": "Self Employed",
+    "annualIncome": 2400000, "maritalStatus": "Married", "dependents": 3,
+    "city": "Ahmedabad", "state": "Gujarat", "customerType": "Existing Customer"
+  },
+  "bankingRelationship": {
+    "savingsAccount": {"number": "XXXX9876", "balance": 850000, "status": "Active"},
+    "salaryAccount": null,
+    "currentAccount": {"number": "XXXX5432", "balance": 1200000, "status": "Active"},
+    "existingLoans": [{"type": "Business Loan", "amount": 2000000, "outstanding": 1200000, "emi": 42000}],
+    "creditCards": [{"name": "IDBI Business Card", "limit": 500000, "outstanding": 125000}],
+    "fd": [{"amount": 1000000, "maturityDate": "2026-03-25", "rate": 7.25}],
+    "insurance": [{"type": "Business Insurance", "premium": 60000, "sumAssured": 20000000}],
+    "investments": [{"type": "Commercial Property", "amount": 5000000, "frequency": "One-time"}]
+  },
+  "existingProducts": [
+    {"product": "Business Loan", "status": "Active", "amount": 2000000, "outstanding": 1200000, "emi": 42000, "eligibility": null},
+    {"product": "Credit Card", "status": "Active", "amount": 500000, "outstanding": 125000, "emi": null, "eligibility": null},
+    {"product": "Business Loan Top-up", "status": "Approved", "amount": 3000000, "outstanding": null, "emi": null, "eligibility": 3000000}
+  ],
+  "leadInfo": {
+    "leadType": "Business Loan", "leadSource": "Existing Customer Upgrade", "generatedDate": "2024-04-15",
+    "leadScore": 76, "probability": 65, "assignedRm": "Meena Iyer",
+    "assignedCm": "Pradeep Kale", "status": "Approved", "nextAction": "Call", "priority": "Medium"
+  },
+  "aiRecommendation": {
+    "estimatedMonthlyIncome": 200000, "incomeStability": "Moderate", "repaymentCapacity": 80000,
+    "disposableIncome": 65000, "recommendedProduct": "Business Loan Top-up",
+    "eligibleAmount": 3000000, "interestRate": 11.25, "confidenceScore": 76,
+    "reasonCodes": ["9-year IDBI banking relationship", "Current account turnover exceeds 1.2 Cr annually", "Existing loan repayment satisfactory", "FD collateral available for enhanced limit"],
+    "conversationStarter": "Mr. Patel, you have maintained a strong business account with us for 9 years. Your current business turnover qualifies you for a working capital enhancement of up to 30 Lakhs at preferential rates.",
+    "likelyQuestions": ["Can I use FD as collateral?", "What documents are needed for business loan?", "What is the tenure?"],
+    "likelyObjections": ["Interest rate is higher than expected", "Business currently has seasonal cash flow issues", "Will this affect existing loan terms?"],
+    "requiredDocuments": ["GST Returns (2 years)", "ITR (2 years)", "Audited Balance Sheet", "Bank Statements (12 months)", "Business registration", "PAN Card"],
+    "crossSellOpportunities": ["Trade Finance facility", "Forex services for imports", "Cash Management solutions"]
+  },
+  "incomeIntelligence": {
+    "monthlyCredits": [185000, 210000, 195000, 220000, 190000, 200000],
+    "monthlyDebits": [120000, 135000, 125000, 140000, 128000, 132000],
+    "incomeSources": [{"source": "Business Income", "amount": 185000, "pct": 92}, {"source": "Rental Income", "amount": 15000, "pct": 8}],
+    "seasonality": "Moderate Seasonal", "confidenceScore": 79
+  },
+  "timeline": [
+    {"date": "2023-10-15", "event": "Business Loan EMI Paid", "amount": 42000, "type": "credit"},
+    {"date": "2024-01-20", "event": "Large CA Turnover Detected", "amount": 1200000, "type": "intent"},
+    {"date": "2024-02-28", "event": "FD Renewed at Higher Rate", "amount": 1000000, "type": "banking"},
+    {"date": "2024-04-15", "event": "Lead Created — Top-up Opportunity", "amount": null, "type": "lead"},
+    {"date": "2024-05-01", "event": "RM Meeting", "amount": null, "type": "rm"},
+    {"date": "2024-05-20", "event": "Documents Submitted", "amount": null, "type": "document"},
+    {"date": "2024-06-10", "event": "Credit Assessment Complete", "amount": null, "type": "credit"},
+    {"date": "2024-06-18", "event": "Loan Approved", "amount": 3000000, "type": "approval"}
+  ],
+  "riskProfile": {
+    "creditScore": 728, "incomeStability": 72, "fraudRisk": 8, "repaymentBehaviour": 85,
+    "debtRatio": 35, "delinquencyRisk": 10, "overallRisk": "Moderate"
+  },
+  "documents": [
+    {"type": "PAN Card", "status": "Verified", "uploadedDate": "2024-05-20", "expiryDate": null},
+    {"type": "GST Returns FY23", "status": "Verified", "uploadedDate": "2024-05-20", "expiryDate": null},
+    {"type": "ITR FY23", "status": "Verified", "uploadedDate": "2024-05-21", "expiryDate": null},
+    {"type": "Audited Balance Sheet", "status": "Verified", "uploadedDate": "2024-05-21", "expiryDate": null},
+    {"type": "Bank Statement (12M)", "status": "Verified", "uploadedDate": "2024-05-22", "expiryDate": null}
+  ],
+  "assignedRm": {
+    "name": "Meena Iyer", "employeeId": "EMP-6745", "branch": "Powai",
+    "experience": "11 Years", "mobile": "7766-5XX-XXX", "email": "meena.i@idbi.co.in", "successRate": 32.0
+  },
+  "assignedCm": {
+    "name": "Pradeep Kale", "employeeId": "EMP-3214", "approvalAuthority": "1 Crore",
+    "workload": "12 cases", "approvalSla": "48 hours"
+  }
+}

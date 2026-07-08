@@ -1,0 +1,69 @@
+{
+  "id": "LEAD004", "numId": 4, "customerId": "CIF89012",
+  "personalDetails": {
+    "name": "Kavitha Rao", "customerId": "CIF89012", "cifNumber": "CIF89012",
+    "relationshipSince": "2021-02-14", "pan": "DEFGP****Z", "aadhaar": "XXXX XXXX 3671",
+    "mobile": "6543-2XX-XXX", "email": "k***a@infosys.com", "dob": "1993-11-30", "age": 31,
+    "gender": "Female", "occupation": "Marketing Manager", "employer": "Infosys BPM",
+    "annualIncome": 960000, "maritalStatus": "Single", "dependents": 0,
+    "city": "Bangalore", "state": "Karnataka", "customerType": "New Customer"
+  },
+  "bankingRelationship": {
+    "savingsAccount": {"number": "XXXX2468", "balance": 125000, "status": "Active"},
+    "salaryAccount": null, "currentAccount": null,
+    "existingLoans": [], "creditCards": [{"name": "IDBI Classic", "limit": 100000, "outstanding": 28000}],
+    "fd": [], "insurance": [], "investments": [{"type": "PPF", "amount": 5000, "frequency": "Monthly"}]
+  },
+  "existingProducts": [
+    {"product": "Credit Card", "status": "Active", "amount": 100000, "outstanding": 28000, "emi": null, "eligibility": null},
+    {"product": "Auto Loan", "status": "Pending", "amount": null, "outstanding": null, "emi": null, "eligibility": 800000}
+  ],
+  "leadInfo": {
+    "leadType": "Auto Loan", "leadSource": "Digital Application", "generatedDate": "2024-06-10",
+    "leadScore": 81, "probability": 72, "assignedRm": "Rahul Desai",
+    "assignedCm": "Sunita Bhatt", "status": "Documents Pending", "nextAction": "Collect Documents", "priority": "High"
+  },
+  "aiRecommendation": {
+    "estimatedMonthlyIncome": 80000, "incomeStability": "High", "repaymentCapacity": 32000,
+    "disposableIncome": 25000, "recommendedProduct": "Auto Loan",
+    "eligibleAmount": 800000, "interestRate": 9.25, "confidenceScore": 81,
+    "reasonCodes": ["Stable IT sector salary", "Clean credit history", "Salary credited consistently for 3 years", "Low debt-to-income ratio"],
+    "conversationStarter": "Ms. Rao, your application for an Auto Loan looks strong. With your salary from Infosys, you qualify for up to 8 Lakhs at 9.25%. We can have this processed in 5 working days.",
+    "likelyQuestions": ["Can I get 100% on-road financing?", "What is the minimum EMI tenure?", "Is insurance bundled?"],
+    "likelyObjections": ["Rate higher than what dealer is offering", "Want to check other banks first", "Thinking of waiting 6 more months"],
+    "requiredDocuments": ["PAN Card", "Aadhaar Card", "Last 3 months salary slips", "Bank statements", "Vehicle quotation"],
+    "crossSellOpportunities": ["Vehicle Insurance", "Personal Accident Cover", "Credit Card Limit Enhancement"]
+  },
+  "incomeIntelligence": {
+    "monthlyCredits": [75000, 78000, 80000, 76000, 82000, 80000],
+    "monthlyDebits": [48000, 52000, 50000, 55000, 51000, 54000],
+    "incomeSources": [{"source": "Salary", "amount": 78000, "pct": 100}],
+    "seasonality": "Stable", "confidenceScore": 85
+  },
+  "timeline": [
+    {"date": "2024-03-15", "event": "Salary Credited", "amount": 78000, "type": "credit"},
+    {"date": "2024-05-20", "event": "Car Showroom Visit (Intent Signal)", "amount": null, "type": "intent"},
+    {"date": "2024-06-10", "event": "Online Auto Loan Application", "amount": null, "type": "lead"},
+    {"date": "2024-06-12", "event": "Lead Assigned to RM", "amount": null, "type": "lead"},
+    {"date": "2024-06-15", "event": "RM Called — Documents Requested", "amount": null, "type": "rm"}
+  ],
+  "riskProfile": {
+    "creditScore": 748, "incomeStability": 84, "fraudRisk": 4, "repaymentBehaviour": 88,
+    "debtRatio": 18, "delinquencyRisk": 5, "overallRisk": "Low"
+  },
+  "documents": [
+    {"type": "PAN Card", "status": "Verified", "uploadedDate": "2024-06-14", "expiryDate": null},
+    {"type": "Aadhaar Card", "status": "Verified", "uploadedDate": "2024-06-14", "expiryDate": null},
+    {"type": "Salary Slip (Jun)", "status": "Pending", "uploadedDate": null, "expiryDate": null},
+    {"type": "Bank Statement", "status": "Pending", "uploadedDate": null, "expiryDate": null},
+    {"type": "Vehicle Quotation", "status": "Pending", "uploadedDate": null, "expiryDate": null}
+  ],
+  "assignedRm": {
+    "name": "Rahul Desai", "employeeId": "EMP-7890", "branch": "Thane",
+    "experience": "5 Years", "mobile": "8877-6XX-XXX", "email": "rahul.d@idbi.co.in", "successRate": 22.7
+  },
+  "assignedCm": {
+    "name": "Sunita Bhatt", "employeeId": "EMP-2987", "approvalAuthority": "75 Lakhs",
+    "workload": "9 cases", "approvalSla": "36 hours"
+  }
+}

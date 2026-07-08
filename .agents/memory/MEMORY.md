@@ -1,0 +1,2 @@
+- [Wouter Link nesting](wouter-link-nesting.md) — Wouter's `<Link>` renders `<a>` directly; never wrap it in another `<a>` — causes nested anchor hydration error.
+- [Vite static data fetch path](vite-static-data-path.md) — In Vite apps, fetch static JSON with `import.meta.env.BASE_URL.replace(/\/$/, "") + "/data/file.json"` — stripping trailing slash avoids double-slash URLs.
